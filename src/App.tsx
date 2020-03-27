@@ -4,6 +4,7 @@ import './App.css';
 import { Head } from './components/Head';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import { ReducerButtons } from './components/ReducerButtons';
 function App() {
 	return (
 		<div className="App">
@@ -17,6 +18,7 @@ function App() {
 				Hello 🌎
 			</Button>
 			<Input />
+			<ReducerButtons />
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
